@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FARMING CATEGORIES IN DEPTH</title>
+        <style>
+            *{
+                text-decoration: none;
+            }
+            .nav-bar{
+                background-color: rgb(107, 180, 107);
+                font-family: Calibri;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+            .nav-div{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .lesotho-hub a{
+                font-size: 35px;
+                font-weight: 600;
+                color: white;
+            }
+            li{
+                list-style: none;
+                display: inline-block;
+            }
+            li a{
+                color: white;
+                font-size: 18px;
+                font-weight: bold;
+                margin-right: 25px;
+            }
+            button{
+                background-color: black;
+                margin-left: 10px;
+                border-radius: 10px;
+                padding: 10px;
+                width: 90px;
+            }
+            button a{
+                color: white;
+                font-weight: bold;
+                font-size: 15px;
+            }
+            button:hover{
+                cursor: pointer;
+                background-color: rgb(60, 59, 59);
+            }
+            li a:hover{
+                color: black;
+                opacity: 1s;
+                border: none;
+            }
+            .category-header h2{
+                margin-top: 10px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: rgb(107, 180, 107);
+                margin-bottom: 20px;
+                font-size: 40px;
+                display: inline-block;
+                height: 50px;
+                border-radius: 8px;
+            }
+            .categories{
+                text-align: center;
+                padding: 20px;
+            }
+            .category-grid{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                gap: 20px;
+                margin-top: 10px;
+            }
+            .category{
+                border: 1px solid green;
+                border-radius: 8px;
+                padding: 10px;
+                background: rgb(107, 180, 107);
+            }
+            .category img{
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+            }
+            .category h3{
+                margin-top: 10px;
+                font-size: 16px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .footer{
+                height: 100px;
+                background-color: black;
+            }
+            .footer-div{
+                text-align: center;
+                color: white;
+                line-height: 100px;
+            }
+            @media (max-width: 700px){
+                .category-grid{
+                    grid-template-columns: repeat(2,1fr);
+                }
+            }
+            @media (max-width: 540px){
+                .category-grid{
+                    grid-template-columns: repeat(1,1fr);
+                }
+            }            
+        </style>
+    </head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-div"> 
+            <div class="lesotho-hub"><a href="index.html">Lesotho Hub</a></div>
+            <ul>
+                <li><a href="Business.html">Business</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact-us.html">Contact Us</a></li>
+                <li><a href="Tips.html">Tips</a></li>
+                <button><a href="log in.html">log in</a></button>
+                <button><a href="Sign up.html">Sign up</a></button>
+            </ul>
+        </div>
+    </nav>
+    <main>
+    <section class="Categories">
+        <div class="category-grid">  
+            <div class="category">
+                <img src="farming/organic-farming.jpg">
+                <h3>Organic Farming</h3>
+                <p>What is Organic Farming?</p>
+                <p>Organic farming is a method of farming that avoids
+                    chemicals like fertilizers and pesticides. It relies
+                    on natural processes, compost, and manure.
+                </p>
+                <h4>Keys Features:</h4>
+                <p>1.No genetically modified organisms.</p>
+                <p>2.Improves soil fertility naturally.</p>
+                <p>3.Produces healthier, chemical-free food.</p>
+            </div>
+            <div class="category">
+                <img src="farming/Agro2.jpg">
+                <h3>Agroforestry</h3>
+                <p>What is Agroforestry?</p>
+                <p>A land use system that combies agriculture and forestry
+                    by growing trees alongside crops or livestock.
+                </p>
+                <h4>Key Features:</h4>
+                <p>1.Trees provide shade and reduce erosion.</p>
+                <p>2.Enhances biodiversity.</p>
+                <p>3.Improves water retention and soil fertility.</p>
+            </div>
+            <div class="category">
+                <img src="farming/dakin-dairy-farms-home-hero.jpg">
+                <h3>Dairy farming</h3>
+                <p>What is Dairy Farming?</p>
+                <p>Farming that focuses on producing milk and other 
+                    products such as cheese, butter, and yohgurt.
+                </p>
+                <h4>Key Features:</h4>
+                <p>1.Involves rearing cows, goats, or buffalo.</p>
+                <p>2.Requires proper feeding, housing, and animal healthcare.</p>
+                <p>3.Often includes milking equipment and storage facilities.</p>
+            </div>
+            <div class="category">
+                <img src="farming/shutterstock_1039708483.jpg">
+                <h3>Livestock Farming</h3>
+                <p>What is Livestock Farming</p>
+                <p>Raising animals for food e.g., meat, milk,eggs and labor
+                     as well as a source of resources e.g., wool, leather.
+                </p>
+                <h4>Key Features:</h4>
+                <p>1.Requires grazing land or feeding systems.</p>
+                <p>2.Needs veterinary care and housing.</p>
+                <p>3.Herds of common animals:pigs, goats, cow etc.</p>
+            </div>
+            <div class="category">
+                <img src="farming/pexels-soo-ann-woon-3265437.jpg">
+                <h3>Crop Farmers</h3>
+                <p>What is Crop Farming?</p>
+                <p>The cultivation of plants for food,feed, or raw materials.</p>
+                <h4>Key Features:</h4>
+                <p>1.Requires soil management</p>
+                <p>2.Can be subsistence or commercial</p>
+                <p>3.Mostly includes maize, wheat, vegetables etc.</p>
+            </div>
+            <div class="category">
+                <img src="farming/chickens-poultry-farm.jpg">
+                <h3>Poultry Farming</h3>
+                <p>What is Poultry Farming?</p>
+                <p>Raising birds for meat or eggs.</p>
+                <h4>Key Features:</h4>
+                <p>1.Requires proper housing</p>
+                <p>2.Regular vacination of birds</p>
+                <p>3.Ranges of small scale to industrial scale</p>
+            </div>
+        </div>
+        </section>
+    </main>
+    <hr>
+    <footer class="footer">
+        <div class="footer-div">2025 Lesotho-hub | All Rights Reserved</div>
+    </footer>
+</body>
+</html>

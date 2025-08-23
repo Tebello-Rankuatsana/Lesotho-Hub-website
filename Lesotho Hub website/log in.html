@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <style>
+        *{
+            font-family: 'Gill Sans', 'Gill Sans MT';
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }        
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url(farming/sunny-plantation-with-growing-soya.jpg)no-repeat center;
+            background-size: cover;
+        }
+        .wrapper{
+            width: 420px;
+            background: green;
+            color: white;
+            border-radius: 15px;
+            padding: 10px 40px;
+        }
+        .wrapper h1{
+            font-size: 36px;
+            text-align: center;
+        }
+        .wrapper .form-input{
+            width: 100%;
+            height: 50px;
+            margin: 30px 0;
+        }
+        .form-input input{
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            border: 2px solid lightslategray;
+            border-radius: 40px;
+            font-size: 16px;
+            color: white;
+            padding: 20px 45px 20px 20px;
+        }
+        .form-input input::placeholder{
+            color: white;
+        }
+        .wrapper .sign-up{
+            display: flex;
+            justify-content: space-between;
+            font-size: 15px;
+            margin: 10px 0 15px;
+        }
+        .sign-up label input{
+            margin-right: 3px;
+        }
+        .sign-up a{
+            color: white;
+            text-decoration: none;
+        }
+        .sign-up a:hover{
+            color: rgb(107, 180, 107);
+        }
+        .wrapper .log-in-button{
+            margin-top: 10px;
+            width: 100%;
+            height: 45px;
+            background: white;
+            border: none;
+            outline: none;
+            border-radius: 40px;
+            box-shadow: 0 0 10px black;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .wrapper .sign-up-link{
+            font-weight: bold;
+        }
+        .wrapper .log-in-button:hover{
+            background-color: rgb(107, 180, 107);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-wrapper">
+            <form>
+                <h1>Log in</h1>
+                <div class="form-input">
+                    <input type="text" placeholder="Username">
+                </div>
+                <div class="form-input">
+                    <input type="password" placeholder="Password">
+                </div>
+                <div>  
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+
+                <button class="log-in-button">Login</button>
+
+                <div class="sign-up">
+                    <p>Don't Have an account? <a class="sign-up-link" href="Sign up.html">Sign up</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
