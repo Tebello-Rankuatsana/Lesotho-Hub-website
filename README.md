@@ -1,9 +1,3 @@
-These are the contents
-Homepage(index.html)
-Farming Categories page(extension of home page)
-Business page
-About page
-Contact us page
-Tips
-Log in page
-Sign Up page
+The lesotho hub folder consists of the index.html,FarmingCategories.html,business. html,about.html,contact us.html,Tips.html,sign up.com,and log in.html.
+The is also a folder named farming, which contains every image I used.
+
