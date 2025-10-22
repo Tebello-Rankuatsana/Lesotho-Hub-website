@@ -1,4 +1,16 @@
-The lesotho hub folder consists of the index.html,FarmingCategories.html,business. html,about.html,contact us.html,Tips.html,sign up.com,and log in.html.
-There is also a folder named farming, which contains every image I used.
-Be aware that that there is a index.html in the project folder and another one outside the project folder(ignore the one outside the project folder)
+#Lesotho Hub(Farm related website)
 
+## General info
+This is a web page for lesotho hub farming webpage
+	
+## Technologies
+Project is created with:
+* HTML
+* CSS
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
